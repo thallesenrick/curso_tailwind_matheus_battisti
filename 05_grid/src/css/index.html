@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construção de Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Grid colunas-->
+    <div>
+        <div class="grid bg-red-100 grid-cols-6 text-center">
+            <div class="border border-black">1</div>
+            <div class="border border-black">2</div>
+            <div class="border border-black">3</div>
+            <div class="border border-black">4</div>
+            <div class="border border-black">5</div>
+            <div class="border border-black">6</div>
+        </div>
+        <div class="grid bg-red-200 grid-cols-5 text-center">
+            <div class="border border-black">1</div>
+            <div class="border border-black">2</div>
+            <div class="border border-black">3</div>
+            <div class="border border-black">4</div>
+            <div class="border border-black">5</div>
+        </div>
+        <div class="grid bg-red-300 grid-cols-4 text-center">
+            <div class="border border-black">1</div>
+            <div class="border border-black">2</div>
+            <div class="border border-black">3</div>
+            <div class="border border-black">4</div>
+        </div>
+        <div class="grid bg-red-400 grid-cols-3 text-center">
+            <div class="border border-black">1</div>
+            <div class="border border-black">2</div>
+            <div class="border border-black">3</div>
+        </div>
+        <div class="grid bg-red-500 grid-cols-2 text-center">
+            <div class="border border-black">1</div>
+            <div class="border border-black">2</div>
+        </div>
+        <div class="grid bg-red-600 grid-cols-1 text-center">
+            <div class="border border-black">1</div>
+        </div>
+    </div>
+    <div>
+        <div class="grid grid-cols-3 text-center mt-6">
+            <div class="bg-yellow-200 border border-black">1</div>
+            <div class="bg-yellow-400 border border-black">2</div>
+            <div class="bg-yellow-200 border border-black">3</div>
+            <div class="bg-yellow-400 border border-black">4</div>
+            <div class="bg-yellow-200 border border-black">5</div>
+            <div class="bg-yellow-400 border border-black">6</div>
+            <div class="bg-yellow-200 border border-black">7</div>
+            <div class="bg-yellow-400 border border-black">8</div>
+            <div class="bg-yellow-200 border border-black">9</div>
+        </div>
+    </div>
+    <div>
+        <div class="class grid grid-cols-6 mt-6 ">
+            <div class="col-span-1 bg-gray-400">
+                <ul class="space-y-5 text-center">
+                    <li class="">Home</li>
+                    <li class="">Produtos</li>
+                    <li class="">Contato</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="col-span-5 bg-gray-900 p-4 text-justify text-white text-bold text-sm">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos cupiditate minus, nisi pariatur modi asperiores recusandae aperiam amet dolor? Ex nesciunt eius libero dolore dolores aliquid numquam saepe laborum!
+                Voluptatibus praesentium cum non veniam aperiam facere necessitatibus, aliquid reprehenderit, optio perspiciatis quae! Perspiciatis asperiores dolores minima quibusdam, quis iste in, ipsa dolorum velit, hic nemo illum consectetur blanditiis obcaecati.
+                Dicta numquam dolores consequatur incidunt iste accusantium obcaecati beatae quas debitis quos culpa tempore recusandae quo consectetur, reiciendis temporibus quae sapiente sed placeat, ex natus reprehenderit inventore! Explicabo, recusandae at?</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="grid grid-cols-4 mt-6">
+            <div class="grid col-span-4 bg-blue-700 py-2 pl-9">
+                Barra de Navegação
+            </div>
+            <div class="col-span-1 bg-blue-400 py-10 text-center">
+                <p>Barra lateral esquerda</p>
+            </div>
+            <div class="col-span-2 bg-blue-200 py-10 text-center">
+                <p>Conteúdo</p>
+            </div>
+            <div class="col-span-1 bg-blue-400 py-10 text-center">
+                <p>Barra lateral direita</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="grid grid-cols-4 mt-6">
+            <div class="col-span-4 bg-green-700 text-white">
+                Barra de navegação 
+            </div>
+            <div class="bg-green-300">
+                <ul>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Novidades</a></li>
+                </ul>
+            </div>
+            <div class="col-span-3 bg-green-400">
+                Conteudo
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="mt-6 grid grid-rows-1 grid-flow-col text-center gap-2">
+            <div class="bg-orange-100">1</div>
+            <div class="bg-orange-200">2</div>
+            <div class="bg-orange-300">3</div>
+            <div class="bg-orange-400">4</div>
+            <div class="bg-orange-500">5</div>
+            <div class="bg-orange-600">6</div>
+            <div class="bg-orange-700">7</div>
+            <div class="bg-orange-800">8</div>
+        </div>
+    </div>
+    <div>
+        <div class="grid grid-cols-1 gap-2">
+            <div class="bg-orange-100">1</div>
+            <div class="bg-orange-200">2</div>
+            <div class="bg-orange-300">3</div>
+            <div class="bg-orange-400">4</div>
+            <div class="bg-orange-500">5</div>
+        </div>
+    </div>
+    <div>
+        <div class="grid grid-cols-3 m-4 gap-4">
+            <div class="bg-purple-100">1</div>
+            <div class="bg-purple-200">2</div>
+            <div class="bg-purple-300">3</div>
+            <div class="bg-purple-400">4</div>
+            <div class="bg-purple-500">5</div>
+            <div class="bg-purple-600">6</div>
+            <div class="bg-purple-700">7</div>
+            <div class="bg-purple-800">8</div>
+            <div class="bg-purple-900">9</div>
+        </div>
+    </div>
+    <div>
+        <div class="grid grid-cols-2 gap-6 m-6">
+            <div class="bg-stone-200">Primeiro</div>
+            <div class="bg-stone-300">Segundo</div>
+            <div class="bg-stone-400">Terceiro</div>
+            <div class="bg-stone-500">Quarto</div>
+        </div>
+    </div>
+  
+</body>
+</html> 
